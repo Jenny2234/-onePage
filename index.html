@@ -1,0 +1,383 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>microtrend</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" href="img/logo2.ico" type="image/x-icon" />
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .card {
+            border: none;
+            overflow: hidden;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            border-radius: 15px;
+        }
+
+        .color {
+            background: linear-gradient(to right, #1a9a20, #efb42a);
+            background: -webkit-linear-gradient(to right, #1e9a24, #efb42a);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+
+        /* 網頁捲軸【寬度】 */
+        ::-webkit-scrollbar {
+            width: 20px;
+        }
+
+        /* 網頁捲軸【背景】顏色 */
+        ::-webkit-scrollbar-track {
+            background: #5b875f;
+        }
+
+        /* 網頁捲軸【把手】顏色 */
+        ::-webkit-scrollbar-thumb {
+            background: #d5d2b1;
+            border-radius: 50px;
+        }
+
+        /* 網頁捲軸【滑過時】把手的顏色 */
+        ::-webkit-scrollbar-thumb:hover {
+            background: #d8d071;
+        }
+.butt{
+    color: rgb(71, 142, 71);
+    background-image: linear-gradient(200deg, #ebe8bd 25%, #a9d1be 74%) ;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(66, 66, 66, 0.3);
+}
+.butt:hover{
+    background-image: linear-gradient(200deg, #f5ef9d 25%, #8fc6ac 74%) ;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(91, 91, 91, 0.3)inset;
+    
+}
+    </style>
+</head>
+
+<body>
+<!-- 頁首 -->
+    <div style="background-image: linear-gradient(200deg, #ebe8bd 25%, #a9d1be 74%) ;width: 100%;">
+        <div class="vh-100">
+            <div class="" style="margin: auto;padding-top:180px;max-width:473px">
+                <img src="img/首頁.png" alt="" style="max-width: 100%;" data-aos="zoom-in" data-aos-delay="100">
+            </div>
+            <h1 class="text-center text-light mt-5" data-aos="zoom-in" data-aos-delay="100"><b>科技變化越快，心，則慢</b></h1>
+
+            <div class="text-center mt-4">
+                <a href="#aa"><button type="button" class="btn btn-success me-2" data-aos="fade-up">了解我們</button></a>
+                <a href="https://ntc.microtrend.tw/202202/janewu/index.html" data-aos="fade-up"><button type="button"
+                        class="btn btn-danger ms-2">馬上體驗</button></a>
+
+            </div>
+            <p class="text-center mt-5" data-aos="fade-up"><b>賣樂圈以獨樹一幟的功能，讓您總是有更多時間，浪費在更美好的事物上。</b></p>
+
+        </div>
+    </div>
+<!-- nav -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow  sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img class="align-self-center ms-3" src="img/logo.png" alt=""
+                    width="60px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav ms-auto me-2 mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-center" aria-current="page" href="#">首頁</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-center" href="#aa">緣起</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-center" href="#b">目標</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-center" href="#c">網站架構</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-center" href="#d">功能實作</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-center" href="#e">關於我們</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<!-- 緣起 -->
+    <div class="m-5" id="aa">
+        <h1 class="text-center color" id="a" data-aos="fade-up"><b>專案服務之緣起</b></h1>
+        <p class="text-center color" data-aos="fade-up">Origin of the project</p>
+        <div style="max-width:1000px ;margin: 0px auto;" data-aos="fade-up">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div style="max-width:100%;">
+                        <img src="img/sce.jpg" alt="" style="max-width:100%;">
+                    </div>
+
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="high" style="margin: 15% 0px;">
+                        <h2><b>2022年文化大學前端、數據工程養成班</b></h2>
+                        <p id="b"><b>2022年文化大學前端工程師養成班專案實作: <br> 
+                            首先由業界導師出題目並面試，海選出團隊成員，再以業師產品"賣樂圈"為中心，實作產品網站。</b></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 目標 -->
+    <div class="m-5" data-aos="fade-up">
+        <h1 class="text-center color"><b>專案服務之目標</b></h1>
+        <p class="text-center color">Project Objectives</p>
+        <div style="max-width:1000px ;margin: 0px auto;">
+            <div class="row pt-3">
+                <div class="col-12 col-md-6">
+                    <img src="img/about.jpg" alt="" style="max-width:100%;margin: 0px auto;">
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="">
+                        <!-- <h2><b>2022年文化大學前端工程養成班</b></h2> -->
+                        <h3 class="mt-3"><b>前端班目標</b></h3>
+                        <p><b>以產品"賣樂圈"為出發點，討論並建構出網站架構，再進一步將網站具現化。目標讓潛在使用者更直觀地感受到這個App想傳達的功能實用性與各項優點，製作一個讓大眾能夠認識、了解賣樂圈的網站，並以其為賣樂圈載點的進入口。
+                                網站架構分為首頁、服務、與Premium頁面。</b></p>
+                        <h3><b>數據班目標</b></h3>
+                        <p id="c"><b>藉由Python自動化操控LINE，讓使用者得以輕鬆的發送訊息給單一甚至多位親朋好友，並自動排程發訊息的時間，進而讓使用者省下寶貴的時間在一封封傳輸訊息。</b>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 架構 -->
+    <div class="m-5" data-aos="fade-up">
+        <h1 class="text-center color"><b>網站架構</b></h1>
+        <div class="container">
+            <p class="text-center">我們希望能呈現小而精的網站架構，並參考商業網站的布局規畫，將網站分為三個部分</p>
+            <p class="text-center">分別為首頁、服務宣告與primary頁面，</p>
+            <p class="text-center">以最直接的方式帶領使用者了解賣樂圈的所有訊息。</p>
+
+        </div>
+        <div style="max-width:1000px ;margin: 0px auto;">
+
+            <div class="row mt-2" data-aos="fade-right">
+                <div class="col-12 col-md-6">
+                    <div class="high" style="margin: 15% 0px;">
+                        <h2 class="text-end"><b>首頁</b></h2>
+                        <p class="text-end"><b>設計理念:</b></p>
+                        <p><b>首頁首先以BS輪播圖，用最快速的方式帶領使用者對賣樂圈有全面的認識。<br>
+
+                            接下來為了讓使用者下載app後能夠快速上手，同時使版面維持簡約風格，<br>使用了slick.js輪播圖，  在網頁中設置了介面功能介紹的區塊，讓介紹內容橫向生長，<br>使用者依序往右滑，就可以了解使用步驟。
+
+                                並全面使用AOS.js滾輪下拉時各區塊畫面呈現各類型動畫，增加網頁活潑性。</b></p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <img src="img/jenny.png" alt="" style="max-width:90%;margin: 0px auto;">
+                </div>
+
+            </div>
+            <div class="row pt-5" data-aos="fade-left">
+                <div class="col-12 col-md-6 order-2 order-md-1">
+                    <img src="img/服務宣告.png" alt="" style="max-width:90%;margin: 0px auto;">
+                </div>
+                <div class="col-12 col-md-6 order-1 order-md-2">
+                    <div class="high" style="margin: 15% 0px;">
+                        <h2><b>服務宣告</b></h2>
+                        <p class="text-start"><b>設計理念:</b></p>
+                        <p><b>服務頁面以卡片方式呈現，讓使用者可以輕鬆閱讀，以圖文方式重點提示表達訊息。
+                            <br> 並全面使用AOS.js滾輪下拉時各區塊畫面呈現各類型動畫，增加網頁活潑性。</b>
+                        </p>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="row pt-5" data-aos="fade-right">
+                <div class="col-12 col-md-6">
+                    <div class="high" style="margin: 15% 0px;">
+                        <h2 class="text-end"><b>premium頁面</b></h2>
+                        <p id="d">
+                            <p class="text-end"><b>設計理念:</b></p>
+                            <b>在首頁凸顯premium按鈕進行頁面跳轉<br>
+                                在頁面以卡片方式呈現強調
+                                《試用版以及付費版功能差異》<br>
+                                
+                                並全面使用AOS.js滾輪下拉時各區塊畫面呈現各類型動畫，增加網頁活潑性。
+                                </b>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <img src="img/premiumPage.png" alt="" style="max-width:90%;margin: 0px auto;">
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <hr id="e">
+    </div>
+    <!-- 功能 -->
+    <div class="m-5" data-aos="fade-up">
+        <div class="butt p-3" style="max-width: 400px;margin: 0px auto;" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+            <h1 class="text-center"><b>功能實作</b></h1>
+        <p class="text-center">Function Implementation</p>
+        <p class="text-center m-0" style="margin: 0px auto;">點擊查看更多</p>
+        </div>
+        <div class="collapse" id="collapseExample" style="max-width:800px ;margin: 0px auto;">
+            <div class="card card-body">
+                        <div style="margin: 0px auto;">
+            <div class="container">
+                <div class="row pt-3">
+                    <div class="col-md-12 col-12 justify-content-center" style="margin: 0px auto;max-width:100%;">
+                        <img src="img/數據.png" alt="" style="max-width:100%; margin: 0px auto;">
+                    </div>
+                </div>
+            </div>
+        </div>
+            </div>
+          </div>
+
+    </div>
+<div class="container">
+    <hr id="e">
+</div>
+
+    <!-- 關於 -->
+    <div class="m-5" id="e">
+        <h1 class="text-center color" data-aos="fade-up"><b>關於我們</b></h1>
+        <p class="text-center color" data-aos="fade-up">About Us</p>
+        <div class="container">
+            <p class="color">前端班</p>
+            <div class="row row-cols-1 row-cols-lg-3 g-4">
+                <div class="col">
+                    <div class="card h-100  m-3" data-aos="fade-up" data-aos-delay="300">
+                        <img src="img/a.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title text-center text-success mt-4"><b>吳孟真Jenny</b></h3>
+                            <h5 class="card-title text-center">Engineer</h5>
+                            <p class="card-title text-center">首頁</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 m-3" data-aos="fade-up" data-aos-delay="400">
+                        <img src="img/b.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title text-center text-success"><b>趙翊阡Una</b></h3>
+                            <h5 class="card-title text-center">Engineer</h5>
+                            <p class="card-title text-center">服務宣告</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 m-3" data-aos="fade-up" data-aos-delay="500">
+                        <img src="img/c.PNG" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title text-center text-success"><b>黃綉淮Kelly</b></h3>
+                            <h5 class="card-title text-center">Engineer</h5>
+                            <p class="card-title text-center">Premium頁面</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p style="margin-top: 50px;" class="color">數據班</p>
+            <div class="row row-cols-1 row-cols-lg-3 g-4">
+                <div class="col">
+                    <div class="card h-100  m-3" data-aos="fade-up" data-aos-delay="600">
+                        <img src="img/1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title text-center text-success"><b>林匯倫Alan</b></h3>
+                            <h5 class="card-title text-center">Engineer</h5>
+                            <p class="card-title text-center">登入和定位發送對象</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 m-3" data-aos="fade-up" data-aos-delay="700">
+                        <img src="img/2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title text-center text-success"><b>邱唯育Andy</b></h3>
+                            <h5 class="card-title text-center">Engineer</h5>
+                            <p class="card-title text-center">發送圖片功能</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100  m-3" data-aos="fade-up" data-aos-delay="800">
+                        <img src="img/3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title text-center text-success"><b>陳妍希Gina</b></h3>
+                            <h5 class="card-title text-center">Engineer</h5>
+                            <p class="card-title text-center">串接資料庫</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 m-3" data-aos="fade-up" data-aos-delay="900">
+                        <img src="img/4.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title text-center text-success"><b>李承家Jimmy</b></h3>
+                            <h5 class="card-title text-center">Engineer</h5>
+                            <p class="card-title text-center">程式優化</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 m-3" data-aos="fade-up" data-aos-delay="1000">
+                        <img src="img/5.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-title text-center text-success"><b>張翔Sean</b></h3>
+                            <h5 class="card-title text-center">Data Engineer</h5>
+                            <p class="card-title text-center">建構資料庫和管理</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#">
+        <p class="text-end pe-3">to top</p>
+    </a>
+    <footer class="" style="background-image: linear-gradient(200deg, #ebe8bd 25%, #a9d1be 74%) ;width: 100%;">
+
+        <p class="text-center text-light p-5 m-0">May 2022</p>
+    </footer>
+
+
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
